@@ -10,6 +10,6 @@ namespace DataAccess.Models
     public string Summary { get; set; }
     public int Order { get; set; }
     public string Description { get; set; }
-    public int Featured { get; set; }
+    public bool Featured { get; set; }
   }
 }
